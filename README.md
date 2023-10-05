@@ -45,4 +45,3 @@ docker push <DockerHub_Username>/<DockerHub_RepositoryName>:latest
 10. Once your service is up and running, click into your service, go to the Networking tab, and go to the attached security group. Under inbound rules, add port 80 with source `0.0.0.0/0`.
 
 You should see `{"Hello":"World"}` if you go to the running task in ECS and visit the public IP address in your browser.
-```
